@@ -1,0 +1,22 @@
+{
+  "name": "S2Tui - Speech to Text",
+  "short_name": "S2Tui",
+  "description": "Transform your voice into text instantly. Free, private, unlimited.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["productivity", "utilities"]
+}

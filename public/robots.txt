@@ -1,0 +1,10 @@
+# S2Tui - robots.txt
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://s2tui.accessdevops.com/sitemap.xml
+
+# Disallow sensitive paths
+Disallow: /_nuxt/
+Disallow: /.nuxt/

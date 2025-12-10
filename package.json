@@ -1,0 +1,21 @@
+{
+  "name": "s2tui-website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.14.0",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/sitemap": "^7.4.9",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "typescript": "^5.6.0"
+  }
+}

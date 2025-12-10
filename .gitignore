@@ -1,0 +1,73 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Node dependencies
+node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# OS
+.DS_Store
+.flooignore
+.idea
+.editorconfig
+.vscode/*
+!.vscode/extensions.json
+*.sw?
+*.sublime*
+*~
+
+# Env files
+.env
+.env.*
+!.env.example
+.envrc
+
+# Local development
+*.local
+.vercel
+.netlify
+
+# Testing
+coverage
+*.lcov
+.nyc_output
+
+# TypeScript
+*.tsbuildinfo
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Sitemap (auto-generated)
+public/sitemap.xml
+public/sitemap.xml.gz
+public/robots.txt.backup
+
+# Build artifacts
+.output/
+.nuxt/
+dist/
+
+# Lock files (optional - uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Generated images tool (development only)
+generate-images.html
