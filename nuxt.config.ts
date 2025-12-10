@@ -61,6 +61,21 @@ export default defineNuxtConfig({
         { rel: 'preload', as: 'image', href: '/logo.png' },
         { rel: 'dns-prefetch', href: 'https://github.com' },
         { rel: 'dns-prefetch', href: 'https://player.vimeo.com' },
+      ],
+      script: [
+        // Google Analytics (gtag.js)
+        {
+          async: true,
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-CF6X11BL18'
+        },
+        {
+          children: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-CF6X11BL18');
+          `
+        }
       ]
     }
   },

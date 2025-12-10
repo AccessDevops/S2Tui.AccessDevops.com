@@ -1,3 +1,5 @@
+import { ref, computed, onMounted } from 'vue'
+
 export type Platform = 'macos-arm' | 'macos-intel' | 'windows' | 'linux' | 'unknown'
 
 export interface DownloadOption {
